@@ -76,7 +76,16 @@ export function Profile() {
                     type="text"
                     className="rounded-lg border py-2 px-3 text-sm text-blue-gray-800"
                     placeholder="Alec M. Thompson"
-                    disabled
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <label className="text-sm text-blue-gray-500">
+                    Last Name
+                  </label>
+                  <input
+                    type="text"
+                    className="rounded-lg border py-2 px-3 text-sm text-blue-gray-800"
+                    placeholder="Alec M. Thompson"
                   />
                 </div>
                 <div className="flex flex-col">
@@ -85,7 +94,6 @@ export function Profile() {
                     type="text"
                     className="rounded-lg border py-2 px-3 text-sm text-blue-gray-800"
                     placeholder="(44) 123 1234 123"
-                    disabled
                   />
                 </div>
                 <div className="flex flex-col">
@@ -94,7 +102,6 @@ export function Profile() {
                     type="text"
                     className="rounded-lg border py-2 px-3 text-sm text-blue-gray-800"
                     placeholder="alecthompson@mail.com"
-                    disabled
                   />
                 </div>
                 <div className="flex flex-col">
@@ -103,16 +110,7 @@ export function Profile() {
                     type="text"
                     className="rounded-lg border py-2 px-3 text-sm text-blue-gray-800"
                     placeholder="USA"
-                    disabled
                   />
-                </div>
-                <div className="flex flex-col">
-                  <label className="text-sm text-blue-gray-500">Social</label>
-                  <div className="flex items-center gap-4">
-                    <i className="fa-brands fa-facebook text-blue-700" />
-                    <i className="fa-brands fa-twitter text-blue-400" />
-                    <i className="fa-brands fa-instagram text-purple-500" />
-                  </div>
                 </div>
               </div>
               <div className="mt-6">
