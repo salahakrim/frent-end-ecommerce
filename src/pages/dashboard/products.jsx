@@ -105,7 +105,7 @@ export function Products() {
                   </td>
                   <td className="whitespace-nowrap px-6 py-4">
                     <a href="#" className="text-red-600 hover:text-red-900">
-                      <FaEdit />
+                      <FaTrash />
                     </a>
                   </td>
                 </tr>
