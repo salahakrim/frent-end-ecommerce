@@ -107,6 +107,9 @@ export function Products() {
                     <a href="#" className="text-red-600 hover:text-red-900">
                       <FaTrash />
                     </a>
+                    <a href="#" className="text-red-600 hover:text-red-900">
+                      <FaTrash />
+                    </a>
                   </td>
                 </tr>
               ))}
